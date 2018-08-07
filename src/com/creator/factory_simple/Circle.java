@@ -1,4 +1,4 @@
-package com.creator.factory;
+package com.creator.factory_simple;
 
 public class Circle implements Shape {
 
