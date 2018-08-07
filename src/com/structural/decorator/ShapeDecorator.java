@@ -1,4 +1,4 @@
-package com.decorator;
+package com.structural.decorator;
 
 public class ShapeDecorator implements Shape {
 

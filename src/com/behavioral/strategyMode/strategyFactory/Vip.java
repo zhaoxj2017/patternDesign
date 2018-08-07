@@ -1,4 +1,4 @@
-package com.strategyMode.strategyFactory;
+package com.behavioral.strategyMode.strategyFactory;
 
 @PriceRegion(max = 20000)
 public class Vip implements CalPrice{

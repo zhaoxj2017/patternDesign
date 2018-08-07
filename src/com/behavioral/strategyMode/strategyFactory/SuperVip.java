@@ -1,4 +1,4 @@
-package com.strategyMode.strategyFactory;
+package com.behavioral.strategyMode.strategyFactory;
 
 @PriceRegion(min=20000, max=30000)
 public class SuperVip implements CalPrice {

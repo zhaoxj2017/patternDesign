@@ -1,4 +1,4 @@
-package com.strategyMode.strategyFactory;
+package com.behavioral.strategyMode.strategyFactory;
 
 @PriceRegion(max = 10000)
 public class Orgnic implements CalPrice {

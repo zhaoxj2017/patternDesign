@@ -1,4 +1,4 @@
-package com.strategyMode.strategySimply;
+package com.behavioral.strategyMode.strategyFactory;
 
 public class Player {
     private Double totalAmount = 0D;//客户在鹅厂消费的总额
@@ -9,14 +9,8 @@ public class Player {
     public void buy(Double amount) {
         this.amount = amount;
         totalAmount += amount;
-        
-        if (totalAmount < 10000) {
-        	calPrice = new Orgnic();
-        } else if (totalAmount < 20000) {
-        	calPrice = new Vip();
-        } else if (totalAmount >= 20000) {
-        	calPrice = new SuperVip();
-        }
+        /* 变化点，我们将策略的制定转移给了策略工厂，将这部分责任分离出去 */
+        calPrice = CalPriceFactory.getInstance().createCalPrice(this);
     }
 
     //计算客户最终要付的钱

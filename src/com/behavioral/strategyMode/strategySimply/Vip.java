@@ -1,4 +1,4 @@
-package com.strategyMode.strategySimply;
+package com.behavioral.strategyMode.strategySimply;
 
 public class Vip implements CalPrice{
 

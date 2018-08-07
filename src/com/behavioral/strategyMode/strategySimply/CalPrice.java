@@ -1,4 +1,4 @@
-package com.strategyMode.strategyFactory;
+package com.behavioral.strategyMode.strategySimply;
 
 public interface CalPrice {
 	public Double calPrice(Double orgnicPrice) ;

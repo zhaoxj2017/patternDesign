@@ -1,4 +1,4 @@
-package com.strategyMode.strategyFactory;
+package com.behavioral.strategyMode.strategyFactory;
 
 import java.lang.annotation.*;
 
