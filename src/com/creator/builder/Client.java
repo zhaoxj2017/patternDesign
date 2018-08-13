@@ -41,7 +41,6 @@ public class Client {
 		System.out.println("total cost:" + non.getCost());
 		System.out.println("################################");
 		
-
 	}
 
 }
