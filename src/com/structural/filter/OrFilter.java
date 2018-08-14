@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 public class OrFilter extends AbstractFilter {
 	Filter filter1;
@@ -30,7 +31,7 @@ public class OrFilter extends AbstractFilter {
 		for (Filter filter: filterList) {
 			newList.addAll(filter.meetFilter(persons));
 		}
-		return distinct(newList);
+		return distinct3(newList);
 	}
 	
 	// 泛型<?> 用来操作接口的。
@@ -39,7 +40,12 @@ public class OrFilter extends AbstractFilter {
 			list1.remove(list2.get(i));
 		}
 	}*/
-	
+
+	/**
+	 * 去重方式1
+	 * @param list
+	 * @return
+	 */
 	public List<Person> distinct(List<Person> list) {
 		Set<Person> dis = new HashSet<>();
 		List<Person> res = new ArrayList<>();
@@ -48,5 +54,23 @@ public class OrFilter extends AbstractFilter {
 		}
 		res.addAll(dis);
 		return res;
+	}
+
+	/**
+	 * 去重方式2 一行解决
+	 * @param list
+	 * @return
+	 */
+	public List<Person> distinct2(List<Person> list) {
+		return new ArrayList<>(new HashSet<>(list));
+	}
+
+	/**
+	 * 去重方式3 JDK1.8 新特性Stream
+	 * @param list
+	 * @return
+	 */
+	public List<Person> distinct3(List<Person> list) {
+		return list.stream().distinct().collect(Collectors.toList());
 	}
 }
