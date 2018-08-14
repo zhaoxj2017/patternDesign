@@ -2,9 +2,9 @@ package com.structural.adapter.merge;
 
 /**
  * 
- * @author ���˾�_F
- * ���������ֻ�ǻ��ӿڣ�ֻ��ʵ����ӿھ��С�
- * ���������Ҫ�ϲ������ӿڣ�����Ҫ�̳���ӿڵ�ʵ����
+ * @author 赵兴君_F
+ * 适配器如果只是换接口，只有实现其接口就行。
+ * 适配器如果要合并两个接口，则需要继承其接口的实现类
  */
 public class Adapter extends AnyPlayer {
 	

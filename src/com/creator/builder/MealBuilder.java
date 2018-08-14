@@ -5,14 +5,14 @@ import com.creator.builder.items.Coco;
 import com.creator.builder.items.Pepsi;
 import com.creator.builder.items.VegBurger;
 
-public class MealBuilder {  // ´´½¨Õß¶ÔÏó
-	Meal meal;		// ½¨ÔìÕßĞèÒª´´½¨µÄ¶ÔÏó
+public class MealBuilder {  // åˆ›å»ºè€…å¯¹è±¡
+	Meal meal;		// å»ºé€ è€…éœ€è¦åˆ›å»ºçš„å¯¹è±¡
 	
 	public MealBuilder() {
 		this.meal = new Meal();
 	}
 	
-	// ¿ÉÍ¨¹ı¹¤³§·½·¨È¥ÓÅ»¯
+	// å¯é€šè¿‡å·¥å‚æ–¹æ³•å»ä¼˜åŒ–
 	public MealBuilder addItem(String name) {
 		switch (name) {
 		case "chickenburger": 

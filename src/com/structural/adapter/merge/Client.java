@@ -2,16 +2,16 @@ package com.structural.adapter.merge;
 
 /**
  *  
- * @author ÕÔĞË¾ı_F
- * ÊÊÅäÆ÷Ä£Ê½
- * Í¨¹ıÊÊÅäÆ÷µÄ·½Ê½£¬Ôö¼ÓMediaPlayer½Ó¿Ú£¬Ê¹ÆäÓµÓĞAdvanceMediaPlayer½Ó¿ÚÖĞµÄ²¥·Å½Ó¿Ú¡£
- * ×¢Èë£ºÔÚ´´½¨¶ÔÏóAÖ®Ç°£¬½«ÒÑ¾­´´½¨µÄ¶ÔÏóB×¢Èëµ½AÖĞ¡£´ËÀıÎª¹¹ÔìÆ÷´«²ÎµÄ·½Ê½×¢Èë¡£
- * Ó¦ÓÃ³¡¾°¼û¼Ì³Ğ·½Ê½
+ * @author èµµå…´å›_F
+ * é€‚é…å™¨æ¨¡å¼
+ * é€šè¿‡é€‚é…å™¨çš„æ–¹å¼ï¼Œå¢åŠ MediaPlayeræ¥å£ï¼Œä½¿å…¶æ‹¥æœ‰AdvanceMediaPlayeræ¥å£ä¸­çš„æ’­æ”¾æ¥å£ã€‚
+ * æ³¨å…¥ï¼šåœ¨åˆ›å»ºå¯¹è±¡Aä¹‹å‰ï¼Œå°†å·²ç»åˆ›å»ºçš„å¯¹è±¡Bæ³¨å…¥åˆ°Aä¸­ã€‚æ­¤ä¾‹ä¸ºæ„é€ å™¨ä¼ å‚çš„æ–¹å¼æ³¨å…¥ã€‚
+ * åº”ç”¨åœºæ™¯è§ç»§æ‰¿æ–¹å¼
  */
 public class Client {
 	public static void main(String[] args) {
 		MediaPlayer media = new Adapter();
-		String fileName = "µÈÄãÏÂ¿Î";
+		String fileName = "ç­‰ä½ ä¸‹è¯¾";
 		media.Play("mp4", fileName);
 		media.Play("mp3", fileName);
 		media.Play("vlc", fileName);

@@ -33,7 +33,7 @@ public class OrFilter extends AbstractFilter {
 		return distinct(newList);
 	}
 	
-	// ·ºĞÍ<?> ÓÃÀ´²Ù×÷½Ó¿ÚµÄ¡£
+	// æ³›å‹<?> ç”¨æ¥æ“ä½œæ¥å£çš„ã€‚
 /*	private  void except(List<?> list1, List<?> list2) {
 		for (int i = 0; i < list2.size(); i++) {
 			list1.remove(list2.get(i));

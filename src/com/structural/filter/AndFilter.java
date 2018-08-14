@@ -20,7 +20,7 @@ public class AndFilter  extends AbstractFilter {
 	@Override
 	public List<Person> meetFilter(List<Person> persons) {
 		// TODO Auto-generated method stub
-		// Ç³¸´ÖÆlist
+		// æµ…å¤åˆ¶list
 		List<Person> list = new ArrayList<>(persons);
 		for (Filter filter: filterList) {
 			list = filter.meetFilter(list);

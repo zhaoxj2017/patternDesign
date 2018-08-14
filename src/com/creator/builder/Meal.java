@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 /**
  * 
- * @author 赵兴君_F
- * Meal 类为主体，最终生成的对象
+ * @author 璧靛叴鍚沖F
+ * Meal 绫讳负涓讳綋锛屾渶缁堢敓鎴愮殑瀵硅薄
  */
 public class Meal {
 	private List<Item> items = new ArrayList<Item>();

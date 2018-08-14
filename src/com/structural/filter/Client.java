@@ -5,17 +5,17 @@ import java.util.List;
 
 /**
  * 
- * @author ���˾�_F
- * ������ģʽ
- * ��ͼ�����˵�����ɸѡ���б��е�����
- * ���̣���һ���б��Ķ���ĸ���ά�Ƚ���ɸѡ��
- * ������ά��һ���б�
- * Ӧ�ó�����1���ƶ����򣬹��˲����Ϲ���Ľ��
- * 					   2���ڰ�����
- *					   3��IP����������
- *                    4����������������ɸѡ������
- *  �ŵ㣺��ÿ��ά�ȵ���ά�������Ͽ����ķ��ԭ��
- *  ȱ�㣺ÿһ��ά�ȵĹ��˹�����Ҫ����һ���࣬��Ҫ�ܶ�εı����б���������������ú�֮��һ���Թ��ˣ�
+ * @author 赵兴君_F
+ * 过滤器模式
+ * 意图：过滤掉或者筛选出列表中的属性
+ * 过程：对一个列表的对象的各个维度进行筛选。
+ * 特征：维护一个列表
+ * 应用场景：1、制定规则，过滤不符合规则的结果
+ * 					   2、黑白名单
+ *					   3、IP禁用名单等
+ *                    4、对批量订单进行筛选，过滤
+ *  优点：对每个维度单独维护，符合开发的封闭原则
+ *  缺点：每一个维度的过滤规则都需要创建一个类，需要很多次的遍历列表；不如把条件设置好之后，一次性过滤；
  *
  */
 public class Client {
@@ -31,12 +31,12 @@ public class Client {
 	      persons.add(new Person("Mike","Male", "Single"));
 	      persons.add(new Person("Bobby","Male", "Single"));
 	      
-	      // ���ù�������
+	      // 设置过滤条件
 	      ArrayList<Filter> filters = new ArrayList<>();
 	      filters.add(new FilterMale());
 	      filters.add(new FilterSingle());
 	      
-	      // ����
+	      // 过滤
 	      Filter singleMale = new AndFilter(filters);
 	      Filter maleOrSingle = new OrFilter(filters);
 	      
