@@ -2,14 +2,14 @@ package com.structural.composite.catalog;
 
 import java.io.File;
 /**
- * 
- * @author 赵兴君_F
  * 组合模式
- * 将对象组合成树形结构
- * 关键代码
- * 结点Node，叶节点Leaf。可以包含一个及以上的叶节点。
- * 关系
- * 结点包含结点和叶节点
+ *    将对象组合成树形结构
+ * 特征：
+ *    树形数据结构
+ * 关键代码：
+ *    结点Node，叶节点Leaf。可以包含一个及以上的叶节点。
+ * 关系：
+ *    结点包含结点和叶节点
  * 
  */
 

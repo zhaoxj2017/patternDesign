@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/com/behavioral/strategy/strategyFactory/CalPriceFactory.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/behavioral/strategy/strategyFactory/Player.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/behavioral/strategy/strategyFactory/PriceRegion.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/behavioral/strategy/strategyFactory/readme" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/behavioral/strategy/strategySimply/Player.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/creator/builder/Client.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/creator/builder/Meal.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/creator/builder/MealBuilder.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/creator/factory_abstract/Client.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/creator/factory_method/Client.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/creator/factory_simple/Client.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/structural/adapter/inheritance/Client.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/structural/adapter/injection/Client.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/structural/adapter/merge/Adapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/structural/adapter/merge/Client.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/structural/composite/catalog/Client.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/structural/decorator/Client.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/structural/filter/AndFilter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/structural/filter/Client.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/structural/filter/OrFilter.java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

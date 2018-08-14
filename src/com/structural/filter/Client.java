@@ -9,7 +9,8 @@ import java.util.List;
  * 过滤器模式
  * 意图：过滤掉或者筛选出列表中的属性
  * 过程：对一个列表的对象的各个维度进行筛选。
- * 特征：维护一个列表
+ * 特征：
+ *     维护一个列表
  * 应用场景：1、制定规则，过滤不符合规则的结果
  * 					   2、黑白名单
  *					   3、IP禁用名单等
@@ -22,7 +23,7 @@ public class Client {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-	      List<Person> persons = new ArrayList<Person>();
+	      List<Person> persons = new ArrayList<>();
 	      
 	      persons.add(new Person("Robert","Male", "Single"));
 	      persons.add(new Person("John","Male", "Married"));
