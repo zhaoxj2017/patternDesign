@@ -1,6 +1,6 @@
 package com.behavioral.strategy.strategy_simply;
 
-public class Orgnic implements CalPrice {
+public class Origin implements CalPrice {
 
 	@Override
 	public Double calPrice(Double orgnicPrice) {
