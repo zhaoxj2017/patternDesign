@@ -1,7 +1,7 @@
 package com.behavioral.strategy.strategy_simply;
 
 /**
- * 策略模式（行为，分类）
+ * 策略模式（行为：分类）
  *    将不同的算法通过不同的类进行处理，通过多态动态分配算法。
  * 特征：
  *    同一问题的多种解决方案。
