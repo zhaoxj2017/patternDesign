@@ -1,4 +1,4 @@
-package com.behavioral.strategy.strategySimply;
+package com.behavioral.strategy.strategy_simply;
 
 public class Orgnic implements CalPrice {
 

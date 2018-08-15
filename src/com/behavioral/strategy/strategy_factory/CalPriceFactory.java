@@ -1,4 +1,4 @@
-package com.behavioral.strategy.strategyFactory;
+package com.behavioral.strategy.strategy_factory;
 
 import java.io.File;
 import java.io.FileFilter;
@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CalPriceFactory {
-	private static final String CAL_PRICE_PACKAGE = "com.strategyMode.strategyFactory";//这里是一个常量，表示我们扫描策略的包
+	private static final String CAL_PRICE_PACKAGE = "com.strategyMode.strategy_factory";//这里是一个常量，表示我们扫描策略的包
 
     private ClassLoader classLoader = getClass().getClassLoader();
 

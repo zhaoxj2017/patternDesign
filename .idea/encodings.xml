@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/src/com/behavioral/strategy/strategyFactory/CalPriceFactory.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/com/behavioral/strategy/strategyFactory/Player.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/com/behavioral/strategy/strategyFactory/PriceRegion.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/com/behavioral/strategy/strategyFactory/readme" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/com/behavioral/strategy/strategySimply/Player.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/behavioral/strategy/strategy_factory/CalPriceFactory.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/behavioral/strategy/strategy_factory/Player.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/behavioral/strategy/strategy_factory/PriceRegion.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/behavioral/strategy/strategy_factory/readme" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/behavioral/strategy/strategy_simply/Player.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/creator/builder/Client.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/creator/builder/Meal.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/creator/builder/MealBuilder.java" charset="UTF-8" />

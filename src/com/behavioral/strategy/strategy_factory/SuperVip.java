@@ -1,5 +1,6 @@
-package com.behavioral.strategy.strategySimply;
+package com.behavioral.strategy.strategy_factory;
 
+@PriceRegion(min=20000, max=30000)
 public class SuperVip implements CalPrice {
 
 	@Override

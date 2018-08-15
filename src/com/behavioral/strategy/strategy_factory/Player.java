@@ -1,4 +1,4 @@
-package com.behavioral.strategy.strategyFactory;
+package com.behavioral.strategy.strategy_factory;
 
 public class Player {
     private Double totalAmount = 0D;//客户在鹅厂消费的总额

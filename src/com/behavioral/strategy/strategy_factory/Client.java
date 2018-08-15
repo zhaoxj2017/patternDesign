@@ -1,4 +1,4 @@
-package com.behavioral.strategy.strategyFactory;
+package com.behavioral.strategy.strategy_factory;
 
 public class Client {
 	public static void main(String[] args) {

@@ -1,6 +1,5 @@
-package com.behavioral.strategy.strategyFactory;
+package com.behavioral.strategy.strategy_simply;
 
-@PriceRegion(max = 20000)
 public class Vip implements CalPrice{
 
 	@Override
