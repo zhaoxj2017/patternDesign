@@ -1,1 +1,4 @@
 /bin/
+/out/
+patternDesign.iml
+.idea/*
