@@ -18,8 +18,6 @@ package com.behavioral.chain;
  *    1、一个请求需要经过多次不同的处理；
  *    2、需要动态制定一组职责处理请求；
  *    3、Java Web中应用较多
- *
- *
  */
 public class Client {
     public static void main(String[] args) {
