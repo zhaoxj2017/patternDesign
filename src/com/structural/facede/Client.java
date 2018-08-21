@@ -11,7 +11,10 @@ package com.structural.facede;
  * 优点：
  *    1、减少系统之间的耦合性
  *    2、提高灵活性和安全性
- *
+ * 注意事项：
+ *    外观模式和代理模式很类似。
+ *    代理模式，主要强调对一个接口的代理，可扩充内容。
+ *    外观模式，主要强调是内部的一个复杂的系统，不扩充内容。
  */
 public class Client {
     public static void main(String[] args) {
