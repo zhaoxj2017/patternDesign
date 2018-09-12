@@ -7,6 +7,7 @@ public class YellowShapeDecorator extends ShapeDecorator {
 		// TODO Auto-generated constructor stub
 	}
 
+	@Override
 	public void draw() {
 		decoratedShape.draw();
 		setYellowBody(decoratedShape);

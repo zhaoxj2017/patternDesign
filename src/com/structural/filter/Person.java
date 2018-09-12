@@ -30,6 +30,7 @@ public class Person {
 		this.marriage = marriage;
 	}
 	
+	@Override
 	public String toString() {
 		return "name : " + name + " sex : " + sex + " marriage : " + marriage; 
 	}

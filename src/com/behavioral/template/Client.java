@@ -20,12 +20,12 @@ package com.behavioral.template;
  */
 public class Client {
     public static void main(String[] args) {
-        Cook co = new CookFish();
+        AbstractCook co = new AbstractCookFish();
         co.cook();
 
         System.out.println("------------");
 
-        Cook coo = new CookChicken();
+        AbstractCook coo = new AbstractCookChicken();
         coo.cook();
     }
 }

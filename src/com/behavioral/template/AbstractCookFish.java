@@ -1,6 +1,6 @@
 package com.behavioral.template;
 
-public class CookFish extends Cook{
+public class AbstractCookFish extends AbstractCook {
 
     @Override
     void pourOil() {

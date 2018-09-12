@@ -12,8 +12,8 @@ public class Client {
 	public static void main(String[] args) {
 		MediaPlayer media = new Adapter();
 		String fileName = "等你下课";
-		media.Play("mp4", fileName);
-		media.Play("mp3", fileName);
-		media.Play("vlc", fileName);
+		media.play("mp4", fileName);
+		media.play("mp3", fileName);
+		media.play("vlc", fileName);
 	}
 }

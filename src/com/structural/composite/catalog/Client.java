@@ -14,24 +14,24 @@ import java.io.File;
  */
 
 public class Client {
-	private static void createTree(Node node) throws Exception {
-		File file = new File(node.name);
+	private static void createTree(AbstractNode abstractNode) throws Exception {
+		File file = new File(abstractNode.name);
 		File[] files = file.listFiles();
 		for (File f: files) {
 			if (f.isFile()) {
 				Filer filer = new Filer(f.getAbsolutePath());
-				node.addNode(filer);
+				abstractNode.addNode(filer);
 			}
 			if (f.isDirectory()) {
 				Noder noder = new Noder(f.getAbsolutePath());
-				node.addNode(noder);
-				createTree(node);
+				abstractNode.addNode(noder);
+				createTree(abstractNode);
 			}
 		}
 	} 
 	
 	public static void main(String[] args) {
-		Node noder = new Noder("src/com/structural/composite/catalog/testDir");
+		AbstractNode noder = new Noder("src/com/structural/composite/catalog/testDir");
 		try {
 			createTree(noder);
 		} catch (Exception e) {

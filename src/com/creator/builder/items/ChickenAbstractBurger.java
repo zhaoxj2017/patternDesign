@@ -1,6 +1,6 @@
 package com.creator.builder.items;
 
-public class ChickenBurger extends Burger {
+public class ChickenAbstractBurger extends AbstractBurger {
 
 	@Override
 	public String name() {

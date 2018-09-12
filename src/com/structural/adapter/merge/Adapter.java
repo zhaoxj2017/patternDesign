@@ -9,16 +9,16 @@ package com.structural.adapter.merge;
 public class Adapter extends AnyPlayer {
 	
 	@Override
-	public void Play(String audioType, String fileName) {
+	public void play(String audioType, String fileName) {
 		// TODO Auto-generated method stub
-		if (audioType.equalsIgnoreCase("mp4")) {
+		if ("mp4".equalsIgnoreCase(audioType)) {
 			AdvanceMediaPlayer aPlayer = new Mp4Player();
 			aPlayer.play(fileName);
-		} else if (audioType.equalsIgnoreCase("vlc")) {
+		} else if ("vlc".equalsIgnoreCase(audioType)) {
 			AdvanceMediaPlayer aPlayer = new VlcPlayer();
 			aPlayer.play(fileName);
 		} else {
-			super.Play(audioType, fileName);
+			super.play(audioType, fileName);
 		}
 	}
 }

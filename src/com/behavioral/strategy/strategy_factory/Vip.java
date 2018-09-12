@@ -1,5 +1,8 @@
 package com.behavioral.strategy.strategy_factory;
 
+/**
+ * @author 赵兴君_F
+ */
 @PriceRegion(max = 20000)
 public class Vip implements CalPrice{
 

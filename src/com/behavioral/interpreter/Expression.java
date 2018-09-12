@@ -1,5 +1,8 @@
 package com.behavioral.interpreter;
 
+/**
+ * @author 赵兴君_F
+ */
 public abstract class Expression {
     public void interpreter(PlayContext context) {
         if (context.getText().length() == 0) {
@@ -14,5 +17,10 @@ public abstract class Expression {
         execute(playKey, playValue);
     }
 
+    /**
+     * execute express
+     * @param key
+     * @param value
+     */
     public abstract void execute(String key, double value);
 }

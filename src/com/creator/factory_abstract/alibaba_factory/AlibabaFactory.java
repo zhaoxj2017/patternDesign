@@ -4,7 +4,11 @@ import com.creator.factory_abstract.AbstractFactory;
 import com.creator.factory_abstract.Color;
 import com.creator.factory_abstract.Shape;
 
+/**
+ * @author 赵兴君_F
+ */
 public class AlibabaFactory extends AbstractFactory {
+	@Override
 	public Color getColor(String type) {
 		switch (type) {
 		case "red":

@@ -1,6 +1,9 @@
 package com.structural.bridge;
 
-public abstract class Shape {
+/**
+ * @author 赵兴君_F
+ */
+public abstract class AbstractShape {
     Color color;
 
     public void setColor(Color color) {

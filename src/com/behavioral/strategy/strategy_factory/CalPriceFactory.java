@@ -80,8 +80,10 @@ public class CalPriceFactory {
         try {
             File file = new File(classLoader.getResource(CAL_PRICE_PACKAGE.replace(".", "/")).toURI());
             return file.listFiles(new FileFilter() {
+                @Override
                 public boolean accept(File pathname) {
-                    if (pathname.getName().endsWith(".class")) {//我们只扫描class文件
+                    String endStr = ".class";
+                    if (pathname.getName().endsWith(endStr)) {
                         return true;
                     }
                     return false;

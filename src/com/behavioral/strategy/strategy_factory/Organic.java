@@ -1,7 +1,10 @@
 package com.behavioral.strategy.strategy_factory;
 
+/**
+ * @author 赵兴君_F
+ */
 @PriceRegion(max = 10000)
-public class Orgnic implements CalPrice {
+public class Organic implements CalPrice {
 
 	@Override
 	public Double calPrice(Double orgnicPrice) {

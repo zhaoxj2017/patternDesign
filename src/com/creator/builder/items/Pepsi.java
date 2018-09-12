@@ -1,6 +1,6 @@
 package com.creator.builder.items;
 
-public class Pepsi extends ColdDrink {
+public class Pepsi extends AbstractColdDrink {
 
 	@Override
 	public String name() {

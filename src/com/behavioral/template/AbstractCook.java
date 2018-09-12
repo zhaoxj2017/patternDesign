@@ -1,8 +1,22 @@
 package com.behavioral.template;
 
-public abstract class Cook {
+/**
+ * @author 赵兴君_F
+ */
+public abstract class AbstractCook {
+    /**
+     * pour oil
+     */
     abstract void pourOil();
+
+    /**
+     * put salt
+     */
     abstract void salt();
+
+    /**
+     * put food
+     */
     abstract void putFood();
 
     final void cook() {

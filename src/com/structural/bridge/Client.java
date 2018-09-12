@@ -18,7 +18,7 @@ package com.structural.bridge;
 public class Client {
     public static void main(String[] args) {
         // draw a red circle
-        Shape circle = new Circle();
+        AbstractShape circle = new Circle();
         circle.setColor(new Red());
         circle.draw();
 

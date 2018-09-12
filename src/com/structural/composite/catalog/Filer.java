@@ -1,6 +1,6 @@
 package com.structural.composite.catalog;
 
-public class Filer extends Node {
+public class Filer extends AbstractNode {
 
 	public Filer(String name) {
 		super(name);

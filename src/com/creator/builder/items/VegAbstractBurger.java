@@ -1,6 +1,6 @@
 package com.creator.builder.items;
 
-public class VegBurger extends Burger {
+public class VegAbstractBurger extends AbstractBurger {
 
 	@Override
 	public float price() {

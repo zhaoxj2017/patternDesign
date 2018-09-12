@@ -2,13 +2,14 @@ package com.behavioral.state;
 
 public class RunningState implements State {
 
+    @Override
     public String toString() {
         return "Start state";
     }
 
     @Override
     public void doAction(Context context) {
-        if (context.getCommand().equalsIgnoreCase("running")) {
+        if ("running".equalsIgnoreCase(context.getCommand())) {
             System.out.println("Request successfully");
         } else {
             // 到下一个状态
